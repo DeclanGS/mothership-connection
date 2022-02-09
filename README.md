@@ -1,2 +1,2 @@
 # mothership-connection
-A Mothership character generator. Currently just a .py that prints a raw dict of stats and inventory contents.
+A Mothership character generator. Currently just a .js that logs the output to console. soon, an .io page.
