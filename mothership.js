@@ -10,8 +10,6 @@ function remove(arr, value) {
   return arr;
 }
 
-function main(){
-
 var skills = ['Linguistics', 'Zoology', 'Botany', 'Geology', 'Industrial Equipment', 'Jury-Rigging', 'Chemistry',
           'Computers', 'Zero-G', 'Mathematics', 'Art', 'Archaeology', 'Theology', 'Military Training', 'Rimwise', 'Athletics']
 
@@ -212,4 +210,3 @@ Your skills are ${char.skills}.<br>
 On your uniform, you wear a ${char.patch} patch.<br>
 `
 
-return output }
