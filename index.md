@@ -5,7 +5,7 @@
 
 <p id="character">Who's up?</p>
 
-<script src="mothership.js">
+<script>
 
 function choice(thing){
     return thing[Math.floor(Math.random() * thing.length)];
