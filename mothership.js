@@ -199,13 +199,14 @@ char.patch = choice(['“I’m Not A Rocket Scientist / But You’re An Idiot”
                 'Allergic To Bullshit (Medical Style Patch)', '“Do I LOOK Like An Expert?”', '“Solve Et Coagula” (Baphomet)', '“Fix Me First” (Caduceus)'])
 
 
-console.log(`You are ${(char.charclass == 'Android') ? 'an' : 'a'} ${char.charclass}. Your stats are:
-STR: ${char.strength}, SPD: ${char.speed}, INT: ${char.intellect}, CMB: ${char.combat}
-SAN: ${char.sanity}, FER: ${char.fear}, BOD: ${char.body}
-You have ${char.wounds} wounds with ${char.health} health each and start with 2 stress.
+var output = `You are ${(char.charclass == 'Android') ? 'an' : 'a'} ${char.charclass}. Your stats are:<br>
+STR: ${char.strength}, SPD: ${char.speed}, INT: ${char.intellect}, CMB: ${char.combat}<br>
+SAN: ${char.sanity}, FER: ${char.fear}, BOD: ${char.body}<br>
+You have ${char.wounds} wounds with ${char.health} health each and start with 2 stress.<br>
+<br>
+You're carrying: ${char.loadout}, as well as a ${char.trinket}.<br>
+Your skills are ${char.skills}.<br>
+<br>
+On your uniform, you wear a ${char.patch} patch.<br>
+`
 
-You're carrying: ${char.loadout}, as well as a ${char.trinket}.
-Your skills are ${char.skills}.
-
-On your uniform, you wear a ${char.patch} patch.
-`)
