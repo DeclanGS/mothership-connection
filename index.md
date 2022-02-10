@@ -5,7 +5,7 @@
 
 <p id="demo">Who's up?</p>
 
-<script src="mothership.js">
+<script src="/mothership.js">
 
 document.getElementById("demo").innerHTML = output
 
