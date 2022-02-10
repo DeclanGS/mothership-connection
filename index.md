@@ -37,6 +37,8 @@ char.body = Math.floor(Math.random() * 10) + Math.floor(Math.random() * 10) + 12
 
 char.wounds = 2
 char.health = Math.floor(Math.random() * 10) + 11
+	
+char.credits = (Math.floor(Math.random() * 10) + Math.floor(Math.random() * 10) + 2) * 10
 
 if (char.charclass == 'Marine'){
     char.combat += 10
@@ -215,7 +217,7 @@ STR: ${char.strength}, SPD: ${char.speed}, INT: ${char.intellect}, CMB: ${char.c
 SAN: ${char.sanity}, FER: ${char.fear}, BOD: ${char.body}<br>
 You have ${char.wounds} wounds with ${char.health} health each and start with 2 stress.<br>
 <br>
-You're carrying: ${char.loadout}, as well as a ${char.trinket}.<br>
+You're carrying: ${char.loadout}, as well as a ${char.trinket} and ${char.credits} credits.<br>
 Your skills are ${char.skills}.<br>
 <br>
 On your uniform, you wear a ${char.patch} patch.<br>
