@@ -5,7 +5,7 @@
 
 <p id="character">Who's up?</p>
 
-<script>
+<script src="mothership.js">
 
 function newChar() { 
 	document.getElementById("character").innerHTML = main()
