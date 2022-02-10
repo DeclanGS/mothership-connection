@@ -60,7 +60,7 @@ if (char.charclass == 'Marine'){
                 'Fatigues (AP 2), Combat Shotgun (2 rnds), Dog, Leash, Tennis Ball',
                 'Fatigues (AP 2), Revolver (12 rnds), Single Frag Grenade',
                 'Dress Uniform (AP 1), Revolver (1 rnd), Challenge Coin',
-                'Advanced Battle Dress (AP 10), Heavy Machine Gun (1 can of ammo), HUD])'])
+                'Advanced Battle Dress (AP 10), Heavy Machine Gun (1 can of ammo), HUD'])
 }
 
 if (char.charclass == 'Android'){
