@@ -212,16 +212,7 @@ char.patch = choice(['“I’m Not A Rocket Scientist / But You’re An Idiot”
                 'Allergic To Bullshit (Medical Style Patch)', '“Do I LOOK Like An Expert?”', '“Solve Et Coagula” (Baphomet)', '“Fix Me First” (Caduceus)'])
 
 
-document.getElementById("demo").innerHTML =`You are ${(char.charclass == 'Android') ? 'an' : 'a'} ${char.charclass}. Your stats are:\n
-STR: ${char.strength}, SPD: ${char.speed}, INT: ${char.intellect}, CMB: ${char.combat}\n
-SAN: ${char.sanity}, FER: ${char.fear}, BOD: ${char.body}\n
-You have ${char.wounds} wounds with ${char.health} health each and start with 2 stress.\n
-\n
-You're carrying: ${char.loadout}, as well as a ${char.trinket}.\n
-Your skills are ${char.skills}.\n
-\n
-On your uniform, you wear a ${char.patch} patch.
-`;
+document.getElementById("demo").innerHTML ="You are ${(char.charclass == 'Android') ? 'an' : 'a'} ${char.charclass}. Your stats are: \n STR: ${char.strength}, SPD: ${char.speed}, INT: ${char.intellect}, CMB: ${char.combat} \n SAN: ${char.sanity}, FER: ${char.fear}, BOD: ${char.body} \n You have ${char.wounds} wounds with ${char.health} health each and start with 2 stress. \n  \n You're carrying: ${char.loadout}, as well as a ${char.trinket}. \n Your skills are ${char.skills}. \n  \n On your uniform, you wear a ${char.patch} patch.";
 
 })();
 
