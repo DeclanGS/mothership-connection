@@ -1,13 +1,9 @@
 <html>
 <body>
 
-<h1>My First JavaScript</h1>
+<button type="button" onclick="myFunction()">Generate New</button>
 
-<p>JavaScript can change the content of an HTML element:</p>
-
-<button type="button" onclick="myFunction()">Click Me!</button>
-
-<p id="demo">This is a demonstration.</p>
+<p id="demo">Who's up?</p>
 
 <script>
 function myFunction() { 
