@@ -19,6 +19,8 @@ function remove(arr, value) {
   return arr;
 }
 
+function myFunction() { 
+
 var skills = ['Linguistics', 'Zoology', 'Botany', 'Geology', 'Industrial Equipment', 'Jury-Rigging', 'Chemistry',
           'Computers', 'Zero-G', 'Mathematics', 'Art', 'Archaeology', 'Theology', 'Military Training', 'Rimwise', 'Athletics']
 
@@ -220,7 +222,7 @@ On your uniform, you wear a ${char.patch} patch.<br>
 `
 
 document.getElementById("character").innerHTML = output
-
+}
 </script>
 
 </body>
